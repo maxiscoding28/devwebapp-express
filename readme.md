@@ -8,7 +8,7 @@ Burtlo's original project is used within the official Hashicorp tutorial [Integr
 It works well but the code is no longer viewable and has a few limitations
 
 This project works as a replacement for burtlo/devwebapp-ruby and also provides some additional features on top of it via environment variables. Specifically:
-- `SECRET_PATH` - The _burtlo/devwebapp-ruby_ container has a hardcoded secret path of `secret/devwebapp/config`. This works for the Hashicorp tutorial however it doesn't allow you to test other paths in Vault. As a default, this project uses the path from the tutorial  (`secret/devwebapp/config`) but specifying a SECRET_PATH variable will override that value.
+- `SECRET_PATH` - The _burtlo/devwebapp-ruby_ container has a hardcoded secret path of _secret/devwebapp/config_. This works for the Hashicorp tutorial however it doesn't allow you to test other paths in Vault. As a default, this project uses the path from the tutorial  (`secret/devwebapp/config`) but specifying a SECRET_PATH variable will override that value.
 
 - `VAULT_TOKEN` - This allows you to test the application when running Vault in non-dev mode.
 
