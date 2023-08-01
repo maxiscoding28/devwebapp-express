@@ -66,7 +66,7 @@ metadata:
 spec:
     containers:
       - name: app
-        image: devwebapp-express
+        image: maxtwinslow1/devwebapp-express
         env:
         - name: VAULT_ADDR
           value: http://host.docker.internal:8200
